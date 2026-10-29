@@ -8,5 +8,14 @@
   },
   "dependencies": {
     "yaml": "^2.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/ideation-loop-system.git",
+    "directory": "packages/protocol"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/ideation-loop-system/issues"
+  },
+  "homepage": "https://github.com/splitintech/ideation-loop-system/tree/main/packages/protocol#readme"
 }

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../docs/brand/splitin-logo.png" alt="SplitIn logo" width="96" height="96">
+  <img src="docs/brand/splitin-logo.png" alt="SplitIn logo" width="96" height="96">
 </p>
 
 <h1 align="center">ideation-loop-system</h1>
@@ -10,12 +10,12 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
-  <a href="https://github.com/splitintech/open-internal-tools/tree/main/ideation-loop-system"><img src="https://img.shields.io/badge/product-open--internal--tools-orange" alt="Open Internal Tools"></a>
-  <a href="https://github.com/splitintech/open-internal-tools/issues"><img src="https://img.shields.io/github/issues/splitintech/open-internal-tools" alt="Issues"></a>
+  <a href="https://github.com/splitintech/ideation-loop-system"><img src="https://img.shields.io/badge/product-open--internal--tools-orange" alt="Open Internal Tools"></a>
+  <a href="https://github.com/splitintech/ideation-loop-system/issues"><img src="https://img.shields.io/github/issues/splitintech/ideation-loop-system" alt="Issues"></a>
 </p>
 
 <p align="center">
-  <a href="../README.md">Hub</a>
+  <a href="https://github.com/splitintech/open-internal-tools">Hub</a>
   ·
   <a href="#getting-started">Docs</a>
   ·
@@ -66,8 +66,8 @@ This folder is the **#ideate LOOP** product in [open-internal-tools](https://git
 ## Getting started
 
 ```zsh
-git clone https://github.com/splitintech/open-internal-tools.git
-cd open-internal-tools/ideation-loop-system
+git clone https://github.com/splitintech/ideation-loop-system.git
+cd ideation-loop-system
 chmod +x install.sh
 ./install.sh
 ```
@@ -84,7 +84,7 @@ Then:
 Sparse checkout if you only want this product:
 
 ```zsh
-git clone --filter=blob:none --sparse https://github.com/splitintech/open-internal-tools.git
+git clone --filter=blob:none --sparse https://github.com/splitintech/ideation-loop-system.git
 cd open-internal-tools
 git sparse-checkout set ideation-loop-system
 cd ideation-loop-system
@@ -92,7 +92,7 @@ cd ideation-loop-system
 
 ## Who this folder is for
 
-Hub profile: [Who we want](../README.md#who-we-want) and [tech stack](../README.md#tech-stack). For this product specifically: TypeScript on Node 20+, Slack Bolt, Slack CLI, YAML, SQLite, vitest. Official `@Cursor` `@Claude` `@Codex` `@ChatGPT` apps plus MCP/CLI/API rows in `integrations.yaml`. Compose those instead of wrapping every vendor as a custom bot. Keep the process cheap enough for an indie laptop. Delegate to multiple agents in one thread; still be able to read and change the Bolt handlers without a model.
+Hub profile: [Who we want](https://github.com/splitintech/open-internal-tools#who-we-want) and [tech stack](https://github.com/splitintech/open-internal-tools#tech-stack). For this product specifically: TypeScript on Node 22.13+, Slack Bolt, Slack CLI, YAML, SQLite, vitest. Official `@Cursor` `@Claude` `@Codex` `@ChatGPT` apps plus MCP/CLI/API rows in `integrations.yaml`. Compose those instead of wrapping every vendor as a custom bot. Keep the process cheap enough for an indie laptop. Delegate to multiple agents in one thread; still be able to read and change the Bolt handlers without a model.
 
 ## Use cases
 
@@ -159,11 +159,11 @@ These cover command parsing, same-thread handoff, GitHub failure mapping, SQLite
 
 ## Secrets
 
-Tokens live in `.env` or `~/.config/slack-agent-hq/` — never in git. Same rule as the program [CONTRIBUTING.md](../CONTRIBUTING.md).
+Tokens live in `.env` or `~/.config/slack-agent-hq/` — never in git. Same rule as the program [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Careers
 
-This folder is product-tech an individual contributor owns end to end. SplitIn engineering: **Tech 51%. Business 50.** We invest **85% as R&D** back to new open-source tools, sip out dev tools, internal tool, build B2B SaaS startups and digitized traditional business SplitIn integrates or sup out tech teams. MVP first, then merge with tests, trust-me-bro benchmarks, and live user tests. We build fast and then refine — every contributor brings an acquaintance after building the building blocks of the architecture. Every project would be allotted funds. Full mission and stack: [splitin.net/tech-stack](https://www.splitin.net/tech-stack). Hub: [open-internal-tools](../README.md).
+This folder is product-tech an individual contributor owns end to end. SplitIn engineering: **Tech 51%. Business 50.** We invest **85% as R&D** back to new open-source tools, sip out dev tools, internal tool, build B2B SaaS startups and digitized traditional business SplitIn integrates or sup out tech teams. MVP first, then merge with tests, trust-me-bro benchmarks, and live user tests. We build fast and then refine — every contributor brings an acquaintance after building the building blocks of the architecture. Every project would be allotted funds. Full mission and stack: [splitin.net/tech-stack](https://www.splitin.net/tech-stack). Hub: [open-internal-tools](https://github.com/splitintech/open-internal-tools).
 
 Own this product-tech end to end — or explore SplitIn tech careers — at **[https://www.splitin.net/careers-requests](https://www.splitin.net/careers-requests)**.
 
@@ -174,3 +174,10 @@ Own this product-tech end to end — or explore SplitIn tech careers — at **[h
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+
+## Standalone repository
+
+This product is maintained at [ideation-loop-system](https://github.com/splitintech/ideation-loop-system). Clone this repository and run the documented setup from its root. The npm/package and API identities are preserved. See [migration provenance](docs/migration.md) and [contributing](CONTRIBUTING.md).
+
+The root workspace is named `ideation-loop-system`. Internal private `@slack-agent-hq/*` package names are retained for source compatibility. This product and [Slack Agent HQ](https://github.com/splitintech/slack-agent-hq) have related but independently maintained implementations.

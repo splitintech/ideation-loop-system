@@ -1,0 +1,903 @@
+{
+  "source_repository": "https://github.com/splitintech/open-internal-tools",
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "product": "ideation-loop-system",
+  "files": [
+    {
+      "source": "docs/brand/splitin-logo.png",
+      "target": "docs/brand/splitin-logo.png",
+      "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+      "mode": "100644",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+    },
+    {
+      "source": "ideation-loop-system/.gitignore",
+      "target": ".gitignore",
+      "git_blob": "83f0fd0476abd9876678343489a844643dd4d07d",
+      "mode": "100644",
+      "sha256": "7ac43c999083a9fd96ad1e3a8818d4b8eb0c1eb6fef55b9d2fa5f406dce8c948"
+    },
+    {
+      "source": "ideation-loop-system/LICENSE",
+      "target": "LICENSE",
+      "git_blob": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "mode": "100644",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685"
+    },
+    {
+      "source": "ideation-loop-system/README.md",
+      "target": "README.md",
+      "git_blob": "0f90865b4923fb8752218adf87a15e7d42227b68",
+      "mode": "100644",
+      "sha256": "a6a5e8f39890e64c436f4db3cbf11e3efd6671cf3acea276a68c272ab67e0d55"
+    },
+    {
+      "source": "ideation-loop-system/apps/ci/package.json",
+      "target": "apps/ci/package.json",
+      "git_blob": "1ff96edcd09415cbd8695e57e6b8868fb998a578",
+      "mode": "100644",
+      "sha256": "16333ee94de6b860dd6bd539f89ed69bef45d84c7c00b1c18b3aca3e8518c39c"
+    },
+    {
+      "source": "ideation-loop-system/apps/ci/src/index.ts",
+      "target": "apps/ci/src/index.ts",
+      "git_blob": "97203aa10541b13829f3bba5ae0ca44577409b3d",
+      "mode": "100644",
+      "sha256": "fc446909ffaa88df6c4ecd45ec35b7c5a4f26dfddc82ee18b6fe72b0efd99806"
+    },
+    {
+      "source": "ideation-loop-system/apps/inbox/package.json",
+      "target": "apps/inbox/package.json",
+      "git_blob": "4651d0d602ba2682fc2630c0e92dceb6f3422a68",
+      "mode": "100644",
+      "sha256": "fc4b8bba762173b40da55f4e3a65b4cf8d42e9fa3cb23dd08ae7e785452054c4"
+    },
+    {
+      "source": "ideation-loop-system/apps/inbox/src/index.ts",
+      "target": "apps/inbox/src/index.ts",
+      "git_blob": "7373ce53c868cbcea5d689b91563ce0b77451f75",
+      "mode": "100644",
+      "sha256": "bc084a7469bb390f68e005a0b47431c52736d8c09a9a896dd0bc2ed0b1e2f26b"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/package.json",
+      "target": "apps/router/package.json",
+      "git_blob": "de048966e692894e307bfd5ed3e7464a97af18e6",
+      "mode": "100644",
+      "sha256": "b6b991c99e4a7c3d3d5fdf8a14c8b9e4dc897c41f5289e2a1e1c0e8ec9c47fe8"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/src/app.ts",
+      "target": "apps/router/src/app.ts",
+      "git_blob": "d6106e38d5439c8f9b0eded896b88a263c0f6b29",
+      "mode": "100644",
+      "sha256": "054f8963e524ec48989ac9d4867559f64d16dc0503e079bb6ae14c7695cc5fa6"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/src/http.test.ts",
+      "target": "apps/router/src/http.test.ts",
+      "git_blob": "262adb7dcf5d5dab65d5e1533e5c46bd272ca4ee",
+      "mode": "100644",
+      "sha256": "a41ebfae714755617a1bf838167e249f7bb100e907829ba5c8c039803c9e2b90"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/src/http.ts",
+      "target": "apps/router/src/http.ts",
+      "git_blob": "ad3da4e08c0ca28a2e52fe6491bcb0fcac1d0082",
+      "mode": "100644",
+      "sha256": "5a518ec8c4df1e77992303c0b4445d4aeda0b1e82c4dfa2a429cdb7b63aeeb82"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/src/index.ts",
+      "target": "apps/router/src/index.ts",
+      "git_blob": "f9dd546c261038d6eb1aa5b3c6e83ae56ae79197",
+      "mode": "100644",
+      "sha256": "652c26be396354f39bd983cb0dd43def78a95fd8848959db0fb2b895d1082600"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/src/projects.test.ts",
+      "target": "apps/router/src/projects.test.ts",
+      "git_blob": "ef037dc4c3e61b9237e33523f44ed5827a02b1c4",
+      "mode": "100644",
+      "sha256": "3b88d8509becba660d5c62d1c46778be9a827795fd183747f99d8866512d8a13"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/src/projects.ts",
+      "target": "apps/router/src/projects.ts",
+      "git_blob": "aec66ce17353d5658234117c209bc6b8cd9230f5",
+      "mode": "100644",
+      "sha256": "262a7fde16ca0a436b6a2b508144da190f7174f807105c81a896222aa643ebde"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/src/slack-gateway.ts",
+      "target": "apps/router/src/slack-gateway.ts",
+      "git_blob": "40b8895bdd9f42147d6346aaf1814b794b0df65b",
+      "mode": "100644",
+      "sha256": "8d0e3d298a7d58263df1c332c1c3d60fb88a5434e380c5866274f8ca0d236646"
+    },
+    {
+      "source": "ideation-loop-system/apps/router/tsconfig.json",
+      "target": "apps/router/tsconfig.json",
+      "git_blob": "9e25e6ece9a77e81dcf7ee3065d787257182501d",
+      "mode": "100644",
+      "sha256": "88020c5d0c639e9fca3c8cc0425dc6233bbb30b14c5a0cb5dcb7d7530d4b788f"
+    },
+    {
+      "source": "ideation-loop-system/apps/triage/package.json",
+      "target": "apps/triage/package.json",
+      "git_blob": "1c924b246d4dc2c97487169e1c0e45b589d8ca1e",
+      "mode": "100644",
+      "sha256": "b64fcfa266439e6a1c555add678248f69f9590e0118c7fc50db533927e317829"
+    },
+    {
+      "source": "ideation-loop-system/apps/triage/src/index.ts",
+      "target": "apps/triage/src/index.ts",
+      "git_blob": "46801941afb6cfc3bfd7e89c0daba4b32cc96700",
+      "mode": "100644",
+      "sha256": "bcd3fde2933d2d6515b15e2cebde7a8cebdfeeb70429d781e9a1f35269398cec"
+    },
+    {
+      "source": "ideation-loop-system/apps/watchdog/package.json",
+      "target": "apps/watchdog/package.json",
+      "git_blob": "94b314ab68eeb820e80b62ae1a62e1130a76190a",
+      "mode": "100644",
+      "sha256": "985921e5270e07666ac9c112da73f60ad03a4a07e46bb1f8ad143315868d0181"
+    },
+    {
+      "source": "ideation-loop-system/apps/watchdog/src/index.ts",
+      "target": "apps/watchdog/src/index.ts",
+      "git_blob": "7bf81978f4aaed8d12c81fc475c38c7defba247d",
+      "mode": "100644",
+      "sha256": "6759526591cdcd011b5003bd2e6c2ce4e2ecc28f8c5c8f2947529a6bf4aacaba"
+    },
+    {
+      "source": "ideation-loop-system/config/.gitkeep",
+      "target": "config/.gitkeep",
+      "git_blob": "7020b4098e1da5fbe998138380303dc9077671ba",
+      "mode": "100644",
+      "sha256": "35c548228a607f2afbc59547ed04534713b509ae042403f66306ae7a2b764d1e"
+    },
+    {
+      "source": "ideation-loop-system/config/examples/agents.yaml",
+      "target": "config/examples/agents.yaml",
+      "git_blob": "fd127ae15558afe107bc61833bf956b453307257",
+      "mode": "100644",
+      "sha256": "7efc756c705228d981002954228291d9149b6aa93a73df48a773b598a1c30aad"
+    },
+    {
+      "source": "ideation-loop-system/config/examples/domains.yaml",
+      "target": "config/examples/domains.yaml",
+      "git_blob": "a87dd474f8a145b25c385443f78232e40eab64ae",
+      "mode": "100644",
+      "sha256": "6f12fc6b3bd8960c8f84767f7eaa363d5193e8b40aeca38d5e8e7a5f0f6c5757"
+    },
+    {
+      "source": "ideation-loop-system/config/examples/integrations.yaml",
+      "target": "config/examples/integrations.yaml",
+      "git_blob": "bb849bbaca70c88f285f8e2970912d706e7bdd06",
+      "mode": "100644",
+      "sha256": "de7991802e02e6b1f83c9b5fa357285ae840acd418bcd9e19163b0950cce7687"
+    },
+    {
+      "source": "ideation-loop-system/config/examples/loops.yaml",
+      "target": "config/examples/loops.yaml",
+      "git_blob": "1f20b9ed28564a92daa366722fa1c2ffe74d72c2",
+      "mode": "100644",
+      "sha256": "c229a9390343b5994ea75bdcf3ae286f390c96ae153d1a5d3f20ffcc02795f91"
+    },
+    {
+      "source": "ideation-loop-system/docs/CURSOR_AUTOMATIONS.md",
+      "target": "docs/CURSOR_AUTOMATIONS.md",
+      "git_blob": "4a1a54d4ca33b3d730f430b8b033f52115e41876",
+      "mode": "100644",
+      "sha256": "71fe9908ce7fa1a11d744c9e34d974e8f573777453911b09ef6872b0e8731f36"
+    },
+    {
+      "source": "ideation-loop-system/docs/HANDOFF.md",
+      "target": "docs/HANDOFF.md",
+      "git_blob": "93de880cc535324c01fc8a0dc2cf5982e8f09de2",
+      "mode": "100644",
+      "sha256": "d2ae8990efb4183f2326b4e713c641830c6cdacfb24825458dfbf3b5bf9c50fa"
+    },
+    {
+      "source": "ideation-loop-system/docs/IDEATE_LOOP_ENGINEERING.md",
+      "target": "docs/IDEATE_LOOP_ENGINEERING.md",
+      "git_blob": "741bde5d4fc3227226c4106fba62d7643fd4ca26",
+      "mode": "100644",
+      "sha256": "e2be2092ee3e67cdb0e727cd8a462da1c343c9e4afe80a3997c3b6352211e9c8"
+    },
+    {
+      "source": "ideation-loop-system/docs/WORKSPACE_SETUP.md",
+      "target": "docs/WORKSPACE_SETUP.md",
+      "git_blob": "76d5725ee91be682d25cd1cecb0d9dbe966e991c",
+      "mode": "100644",
+      "sha256": "7123cb55504a761ad9eca6d429f7e3ab32feb61b1c1d4ec74f83e198d3f51a1e"
+    },
+    {
+      "source": "ideation-loop-system/docs/banner.webp",
+      "target": "docs/banner.webp",
+      "git_blob": "7c8c97b9fa2f28acb6768ee707b292e7627a60cb",
+      "mode": "100644",
+      "sha256": "bb6d4723002ad04fdff69f717fc6853d035031253c910a39bef5171954ffc085"
+    },
+    {
+      "source": "ideation-loop-system/docs/pins/CHATGPT.md",
+      "target": "docs/pins/CHATGPT.md",
+      "git_blob": "3364631bc43c51c2f208f841182505f507a3515c",
+      "mode": "100644",
+      "sha256": "588636e2d91cd1a205f88a7b779d28d7564ce58df7899842be0b67946e640099"
+    },
+    {
+      "source": "ideation-loop-system/docs/pins/CLAUDE.md",
+      "target": "docs/pins/CLAUDE.md",
+      "git_blob": "b2145ab2cfca67f51cee005f21fb5614d884af04",
+      "mode": "100644",
+      "sha256": "568106804559bc5c542506066f253e7cdc0236f2271d830bdebbbe83e1d862aa"
+    },
+    {
+      "source": "ideation-loop-system/docs/pins/CODEX.md",
+      "target": "docs/pins/CODEX.md",
+      "git_blob": "1d4bf67882b467f17bc03ec100efcd409d6a156e",
+      "mode": "100644",
+      "sha256": "6613047d9edbfe02d4052295d12690357a9d999de0a7bb3438510cecc6d5afce"
+    },
+    {
+      "source": "ideation-loop-system/docs/pins/CURSOR.md",
+      "target": "docs/pins/CURSOR.md",
+      "git_blob": "b51f6821eb849f2034a72196b76334b9ac623342",
+      "mode": "100644",
+      "sha256": "80b3fad5d9afca28513a11bf8a242677631a5252181c48b1be8e679345b18795"
+    },
+    {
+      "source": "ideation-loop-system/docs/pins/IDEATE_ONE_PAGER.md",
+      "target": "docs/pins/IDEATE_ONE_PAGER.md",
+      "git_blob": "88c807d5bcc621f7ed3358f8299b1d94d5b3fa16",
+      "mode": "100644",
+      "sha256": "c7e045e2732886a7c7e9488ab2b8e0f15672def4c5be66be905c36715a5bc83d"
+    },
+    {
+      "source": "ideation-loop-system/docs/pins/INNER_LOOPS.md",
+      "target": "docs/pins/INNER_LOOPS.md",
+      "git_blob": "a7ac2dfc46dec43d32905a62415a02da0f96c8af",
+      "mode": "100644",
+      "sha256": "3520c13f7d5d62d71426d644331372f14d12f89c4c1beeaec0fba00a456e4fd6"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/BACKEND.md",
+      "target": "docs/templates/BACKEND.md",
+      "git_blob": "2a31b62c15bc2395938714473ebb1656b4ab16cf",
+      "mode": "100644",
+      "sha256": "d2ea8d3a225c01b4880004b7e8ada81d888080b5a413573182dbcd92dbba8c35"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/DESKTOP.md",
+      "target": "docs/templates/DESKTOP.md",
+      "git_blob": "58a2b3f5b99df0834fc4049569e8c280da5595f1",
+      "mode": "100644",
+      "sha256": "46df222870fc8bedb414df9ce6087e572c8feca0d85598584ab9bb002c936886"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/LANGUAGE.md",
+      "target": "docs/templates/LANGUAGE.md",
+      "git_blob": "ba906b37b472597a75d1447d833ab6e613b2c7a0",
+      "mode": "100644",
+      "sha256": "ffce17e071d5c603018970c0b4ccbcd393245826bab779f74003f33f946697c9"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/MEMORY.md",
+      "target": "docs/templates/MEMORY.md",
+      "git_blob": "333aeba03fd6210024b0afb542f735f06581e32b",
+      "mode": "100644",
+      "sha256": "d058fe497ddfedf36fae54818edb6b531825e06f176c5dbdb7c075364a70a4cf"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/PRD.md",
+      "target": "docs/templates/PRD.md",
+      "git_blob": "3a3d5394cc43f65c2bdaee46fb56e3a693d66d71",
+      "mode": "100644",
+      "sha256": "f05bb679c93e14d58251f71858861c6ecb1979258522c3c755db81b7aba29d23"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/PWA.md",
+      "target": "docs/templates/PWA.md",
+      "git_blob": "d69dd78cac63ecc974afa98a18d94f1708706114",
+      "mode": "100644",
+      "sha256": "1b078a7ee283f5e424a4791b3e62dcede7d91512384c8843148a30c3f3a4300a"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/SEO.md",
+      "target": "docs/templates/SEO.md",
+      "git_blob": "59d234cfdf687daa5df4d4e608fbdd06798dc02d",
+      "mode": "100644",
+      "sha256": "ee4eebdea5a1132eaf92b3d4f48c68a1a7cd545f770a4a316920f16701858ce5"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/TOOLS.md",
+      "target": "docs/templates/TOOLS.md",
+      "git_blob": "ed93b5e206860a70b27ef7957ca06ea5423d310a",
+      "mode": "100644",
+      "sha256": "f631e97309d91736e6e88110043b2ed57391c295cf07c6b0ee7d485c41a2c392"
+    },
+    {
+      "source": "ideation-loop-system/docs/templates/VIDEO.md",
+      "target": "docs/templates/VIDEO.md",
+      "git_blob": "3af717e1da6940e9c04ce69b534606b1ce355161",
+      "mode": "100644",
+      "sha256": "4aa5cfb3510e74ba40b423ecd3da89b5a6685814cbf0d4c87d251df5ce98ac14"
+    },
+    {
+      "source": "ideation-loop-system/env.example",
+      "target": "env.example",
+      "git_blob": "0aab2950d957828f7323ad41d23633bea70930f7",
+      "mode": "100644",
+      "sha256": "3c800cb20a03bd6bb5ad77aca637f80a245e09340a8ffe64ca470b9a656157dc"
+    },
+    {
+      "source": "ideation-loop-system/install.sh",
+      "target": "install.sh",
+      "git_blob": "1c6efb650cdedd1d1e8db612dcec1d861d2d3352",
+      "mode": "100755",
+      "sha256": "e248ef8851cbc77cd8a951ba56e1f5d6e3fcd26500bff91b140f606d72ffd480"
+    },
+    {
+      "source": "ideation-loop-system/manifests/ci.yaml",
+      "target": "manifests/ci.yaml",
+      "git_blob": "59d0fb58fc8494f216b5489a343ba276fa3809c6",
+      "mode": "100644",
+      "sha256": "2738cb08c4336899ad9865e7292130d14beceb0c75c14a6eaa8a7b55cfc5aa2d"
+    },
+    {
+      "source": "ideation-loop-system/manifests/inbox.yaml",
+      "target": "manifests/inbox.yaml",
+      "git_blob": "a733de5dd139d86f787ee19b0c31421a903114e0",
+      "mode": "100644",
+      "sha256": "01cdf1a0ba78357fbe80d48e1346f8f6f6bda5520adb42b05e96debef1e6f645"
+    },
+    {
+      "source": "ideation-loop-system/manifests/router.yaml",
+      "target": "manifests/router.yaml",
+      "git_blob": "5b8126fad492fb81010a76b98cc1250b157b6f38",
+      "mode": "100644",
+      "sha256": "c5e02c1bf5d55744b40ebea11f0cc9b56df65d945451b0dbc2508f82f7b5065c"
+    },
+    {
+      "source": "ideation-loop-system/manifests/triage.yaml",
+      "target": "manifests/triage.yaml",
+      "git_blob": "f88b0133f99617f51ae196e380d77a2c021da4ae",
+      "mode": "100644",
+      "sha256": "550f2c115f940d16d6fc46678166e6a6aad44359d78ae2838dec3bae1a4f1e00"
+    },
+    {
+      "source": "ideation-loop-system/manifests/watchdog.yaml",
+      "target": "manifests/watchdog.yaml",
+      "git_blob": "65f1f26bb5a0779987bcd4dffd0ccb413b406193",
+      "mode": "100644",
+      "sha256": "cf71142e14ec7eb0badeb108641a804e0e351e38bfc4aa27591306c11c26dd29"
+    },
+    {
+      "source": "ideation-loop-system/package-lock.json",
+      "target": "package-lock.json",
+      "git_blob": "4f93d1fff09fe3a22cd3a2ee972874554e1a4919",
+      "mode": "100644",
+      "sha256": "7cde4f6e905ea8d34f1ec0ce81fd88c2e73bd9e40edacadc3a346eb79afbadd3"
+    },
+    {
+      "source": "ideation-loop-system/package.json",
+      "target": "package.json",
+      "git_blob": "002e987e2beb2570c994a8b060e07f2b48b4adff",
+      "mode": "100644",
+      "sha256": "cdf695ccfe96458ad3619733cb697a11270943a70d54970cac157491aa75c423"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/package.json",
+      "target": "packages/protocol/package.json",
+      "git_blob": "8e5055e01b27620338914c99ee7f0506edcdbfd6",
+      "mode": "100644",
+      "sha256": "c8bc5877c5b2dfc9d712cf0d1ce10cf15922a1c1dd9774acdae6defe8e91ec83"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/acceptance.test.ts",
+      "target": "packages/protocol/src/acceptance.test.ts",
+      "git_blob": "90f3aafe4f82021535b39a914449b8201cd8ee7a",
+      "mode": "100644",
+      "sha256": "8ca4d2d3c88b37572d31bb23d4d45ada03723080f9bab223a28427fd924064f3"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/audit.ts",
+      "target": "packages/protocol/src/audit.ts",
+      "git_blob": "c71d5ae1b9a522cde2b4ff0071bfd8fa5dee1977",
+      "mode": "100644",
+      "sha256": "387e3ceecb2a5a183b8da75ba432d09bf137bb8943d28e24c13b7463a1615b69"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/bots.test.ts",
+      "target": "packages/protocol/src/bots.test.ts",
+      "git_blob": "a32324464117d6c6641c90d106d57345993b2be0",
+      "mode": "100644",
+      "sha256": "30864ed70b9af2f9691f4e294a97183f2fe491626bb0618d4d7415ba3ee55f6f"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/bots.ts",
+      "target": "packages/protocol/src/bots.ts",
+      "git_blob": "9ea9a7e4f4f04891af00720cf624cb8ce965df1e",
+      "mode": "100644",
+      "sha256": "2779bb18f60ced63a468a2134e1f5b9146cb2ab3092352e032fdbdc8c6601eb4"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/budget.test.ts",
+      "target": "packages/protocol/src/budget.test.ts",
+      "git_blob": "14f961a0fa1213248f658d63f4cf5163a5fbd996",
+      "mode": "100644",
+      "sha256": "130320524a4abde67afa06749a7745689fc1ce514da192bb9866d0da85b1991a"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/budget.ts",
+      "target": "packages/protocol/src/budget.ts",
+      "git_blob": "04dca57691597925cd69fab69401fc95490f3d5a",
+      "mode": "100644",
+      "sha256": "1f39589eb015311d4973cfcb9eca837ab00cd1c3f287097c96d0399314108343"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/classifier.test.ts",
+      "target": "packages/protocol/src/classifier.test.ts",
+      "git_blob": "66409a0290a50e5cdc9ba9dfebd1e2e5413cc38c",
+      "mode": "100644",
+      "sha256": "a96c871a14da370f29d77396dac927f8d98a551f7c5f789bf10c5c07d4d541e4"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/classifier.ts",
+      "target": "packages/protocol/src/classifier.ts",
+      "git_blob": "3cb0e037f30d28649c3a7622dd20540d2659fb94",
+      "mode": "100644",
+      "sha256": "4bb13dd01705834407cdfd78d8ac06cb70eaf9317552c029d65d89383ea86787"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/config.ts",
+      "target": "packages/protocol/src/config.ts",
+      "git_blob": "ccb9f2250fe735c3cd77d131eca5fa9a602074bc",
+      "mode": "100644",
+      "sha256": "61b2fa3c60f84dab4b0c31a67c3a00d0db14c8b5cf6b602ce34c8d6b73641a73"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/defaults.ts",
+      "target": "packages/protocol/src/defaults.ts",
+      "git_blob": "466cc09204fbcf5b4208eef344f66488c192166b",
+      "mode": "100644",
+      "sha256": "97f82e19206dc633fd592633881b264b01cac2005ba3a933e5afa111ebe9c018"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/dod.test.ts",
+      "target": "packages/protocol/src/dod.test.ts",
+      "git_blob": "2f94d192e6c55a13386b446fe1411cf8e40e4827",
+      "mode": "100644",
+      "sha256": "89bda24501c60421af4313c697d4ee193164162003b3e74eb13a011d03bba003"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/dod.ts",
+      "target": "packages/protocol/src/dod.ts",
+      "git_blob": "854e56e7726d2ed9df223a6d3e8a7acd025310de",
+      "mode": "100644",
+      "sha256": "81bec4d18f6da7842c2443047d8b72122a245cc55fdcbe3d3f89918830d0842f"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/github.ts",
+      "target": "packages/protocol/src/github.ts",
+      "git_blob": "05616a579ecb83f6a85bf1f5d4a8cb9bf061dc7c",
+      "mode": "100644",
+      "sha256": "d4945d13ae5949ae7e6ddcf39fb3f1a91415fe60fa6e9e83c9e4a6b8c93c70b5"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/handoff.test.ts",
+      "target": "packages/protocol/src/handoff.test.ts",
+      "git_blob": "3c338ac589228a9e22f7cbabd8d2a4c7cd186fee",
+      "mode": "100644",
+      "sha256": "5d8b8136959722a14122c05eddb59936605fa94b3ded09b7359fab5178a3cecc"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/handoff.ts",
+      "target": "packages/protocol/src/handoff.ts",
+      "git_blob": "b7687f518a1274a0c3975c3152b1f9d7cb64c00e",
+      "mode": "100644",
+      "sha256": "30f2feb801194cb803bbb8526bf9a98f65372f37dd4404db0d61adf96cbb1aaa"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/ideate-message.test.ts",
+      "target": "packages/protocol/src/ideate-message.test.ts",
+      "git_blob": "22602b8021822b7fbca78ca29739e6239a94075c",
+      "mode": "100644",
+      "sha256": "545f7f71a5d527a2e72f89622e10d83c1a6e700be36ad6280016d1579135a41e"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/ideate-message.ts",
+      "target": "packages/protocol/src/ideate-message.ts",
+      "git_blob": "e396897e18830169598f252cdfed18b3d692dd9c",
+      "mode": "100644",
+      "sha256": "21b99b4c9718ddb6ab84f1b5aa3da21bb5803ff2cd07b801af07a46e5d537dd9"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/index.ts",
+      "target": "packages/protocol/src/index.ts",
+      "git_blob": "6dc7007da0eb5e7bf4ac7620427f2bd03a8c7db3",
+      "mode": "100644",
+      "sha256": "baab7d1d901a3f9afdf24bc287a30c1e6bae1f80355ca371c67a2621e319e606"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/integrations.test.ts",
+      "target": "packages/protocol/src/integrations.test.ts",
+      "git_blob": "40da5a01c218df38fe281af75df172775f0a1a16",
+      "mode": "100644",
+      "sha256": "c675fd7bd0f27e6cfdf00d1c5978a719f04a242a121de4db131f0e3b4d0abe1c"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/integrations.ts",
+      "target": "packages/protocol/src/integrations.ts",
+      "git_blob": "4e046b2d30d4330e8d35148b0e4e53961543ea57",
+      "mode": "100644",
+      "sha256": "8f8b5e701cd9204b62e70d680ab7e00f1ea7e5c5acc05529eabda0fb69f6a141"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/jobs.test.ts",
+      "target": "packages/protocol/src/jobs.test.ts",
+      "git_blob": "99f063e5d35446014e835a0ff59e3b8ecca6d5dc",
+      "mode": "100644",
+      "sha256": "c7edf3267fbd5b2af178b6240c2f075404c7cbd299a25fa1334027c95ef6d8f8"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/jobs.ts",
+      "target": "packages/protocol/src/jobs.ts",
+      "git_blob": "550c3eb7ad230c19c3f243b3f3954c23c156a7a7",
+      "mode": "100644",
+      "sha256": "769492240feea3053eede8c3075b1cd259f0b28b7b80a7a1582319ddee8298c0"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/memory.ts",
+      "target": "packages/protocol/src/memory.ts",
+      "git_blob": "430cb27cd6b8fd90ebf4a07990bbcc7c97343516",
+      "mode": "100644",
+      "sha256": "a19fb2575098a5a644781b08cdc3e74c3517c43ef8f77e0949d011978882f3be"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/nags.ts",
+      "target": "packages/protocol/src/nags.ts",
+      "git_blob": "da4b73ec83402d295057a270fbbbc7df47af8be1",
+      "mode": "100644",
+      "sha256": "73847decbfad78925abf3d1824e8f18dfa887792f7114038f12a6d6a2460a30c"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/packet.test.ts",
+      "target": "packages/protocol/src/packet.test.ts",
+      "git_blob": "bb3134c66526d0c107f2860bf18986266009afd7",
+      "mode": "100644",
+      "sha256": "e37dfe8cf6421f079810359834a1060203400b904cf11aac17395abef7d945a8"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/packet.ts",
+      "target": "packages/protocol/src/packet.ts",
+      "git_blob": "c32fe6b75869830e040504169c8e05ff181822c6",
+      "mode": "100644",
+      "sha256": "302e22733897fc5486983fa1184196c0b59e0209855a272bb0b0bb24a8ff215d"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/phase.test.ts",
+      "target": "packages/protocol/src/phase.test.ts",
+      "git_blob": "47307be63a3001e95c395942311b66efb3668b24",
+      "mode": "100644",
+      "sha256": "45908aba7c3142f55b99c7c4eeba5c1cc33d7344ca22c451eb6fae25c78f5508"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/phase.ts",
+      "target": "packages/protocol/src/phase.ts",
+      "git_blob": "773eb756a7f4aca44b1e3b2297288cb059f19e8b",
+      "mode": "100644",
+      "sha256": "5c5ad36fc989029733300805dc12c7e0d0de5c509563b8c26a0d54de593e41c6"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/prompts.test.ts",
+      "target": "packages/protocol/src/prompts.test.ts",
+      "git_blob": "9652e14291d60d3c14b0164895276ad1a99fe9c1",
+      "mode": "100644",
+      "sha256": "9f311e7383e4a747fb7e977ef861f00be8c0b09219a13cdd07c6069fa3eb1dcd"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/prompts.ts",
+      "target": "packages/protocol/src/prompts.ts",
+      "git_blob": "e4224e16e235077abeb33a1ee9e0827a0d9baa67",
+      "mode": "100644",
+      "sha256": "171fe04201f0cc03b8a7b298b263cf951baac5fb28fa12c3a3e5b33acd498e41"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/redact.ts",
+      "target": "packages/protocol/src/redact.ts",
+      "git_blob": "49e08a81ccd54ca2f3b0f6551390724cc6c6b20a",
+      "mode": "100644",
+      "sha256": "bf66b55c2e774d6eccfe435546eb202e32bff89ddbdccde26203e09a00863c32"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/routing.test.ts",
+      "target": "packages/protocol/src/routing.test.ts",
+      "git_blob": "b37d29cebb7bb513b9eff72d5fc22b0ffc1e794d",
+      "mode": "100644",
+      "sha256": "eeed3ea37b6d889bce6cff53007187c9ff8cb59b9358cbae94736d8e3a766762"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/routing.ts",
+      "target": "packages/protocol/src/routing.ts",
+      "git_blob": "e96eff9e040d0c11c71993c664b9193296a535a3",
+      "mode": "100644",
+      "sha256": "51c983cfd581a344a2af8e24142f892c2804ede0ca498793e72ff524b1eef0ff"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/seo-check.ts",
+      "target": "packages/protocol/src/seo-check.ts",
+      "git_blob": "3dd874f0403ca8e4dd9e29e9c3b3cdab85c02477",
+      "mode": "100644",
+      "sha256": "a801cb8e0b212a96c2d558702e53e2a7044db7a62e82b728545c87a7ab4a6e33"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/specialist-loops.ts",
+      "target": "packages/protocol/src/specialist-loops.ts",
+      "git_blob": "51dc8c9c9192f7566b53c728c5f00db6322b32a9",
+      "mode": "100644",
+      "sha256": "1af05b5eab11aaa931abcf9de94d6384574bb81c280bd5b45d79b26a58f10416"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/state-blocks.ts",
+      "target": "packages/protocol/src/state-blocks.ts",
+      "git_blob": "602ca39bb286920e23df8150722670ef80329585",
+      "mode": "100644",
+      "sha256": "8d3b8b59d628d09a1d0518c01ff2173e0a7ee81cb8c92edabd164701ad029ef0"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/store.test.ts",
+      "target": "packages/protocol/src/store.test.ts",
+      "git_blob": "5735e63cad584fb4292c6ddfb3c84a0224096a85",
+      "mode": "100644",
+      "sha256": "bdd29e157de92200ce91813088c06d22b32e5b43bbbd8023889bc287cb1a8aac"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/store.ts",
+      "target": "packages/protocol/src/store.ts",
+      "git_blob": "e468459f867fe04bb79aa5077a80f56fa71eb2fe",
+      "mode": "100644",
+      "sha256": "d0d6e2fb7532a6403afc6762d05197f6ec998c738765e4148e47202dff32d38c"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/types.ts",
+      "target": "packages/protocol/src/types.ts",
+      "git_blob": "7e0afabdd1bef444199bc8cea13f21810a982006",
+      "mode": "100644",
+      "sha256": "257f59f94541ea65669e94787444ac492a92ccc11b2faf91735d949920cd66ad"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/zip.test.ts",
+      "target": "packages/protocol/src/zip.test.ts",
+      "git_blob": "bc94506cb1415a099e97bb26d609d5aa2b8d2821",
+      "mode": "100644",
+      "sha256": "130568b52406fb1051f5e2ea79a4c659e0dbc18301d8ef84172ab1a98a039d89"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/src/zip.ts",
+      "target": "packages/protocol/src/zip.ts",
+      "git_blob": "3b103e604ab4acd8e1e4d11aa0eb6dc42cecf9e4",
+      "mode": "100644",
+      "sha256": "c395218dc276b3bdb917597defc61eab3ea0b41ff375329401179aeb2281e4b0"
+    },
+    {
+      "source": "ideation-loop-system/packages/protocol/tsconfig.json",
+      "target": "packages/protocol/tsconfig.json",
+      "git_blob": "9e25e6ece9a77e81dcf7ee3065d787257182501d",
+      "mode": "100644",
+      "sha256": "88020c5d0c639e9fca3c8cc0425dc6233bbb30b14c5a0cb5dcb7d7530d4b788f"
+    },
+    {
+      "source": "ideation-loop-system/packages/runtime/package.json",
+      "target": "packages/runtime/package.json",
+      "git_blob": "736dc515ca9927befab431733d05eac5ed7b3a96",
+      "mode": "100644",
+      "sha256": "d54189c36b79c993cc18984552d83988293916947700c02de6b2b2ebf359c1fa"
+    },
+    {
+      "source": "ideation-loop-system/packages/runtime/src/index.ts",
+      "target": "packages/runtime/src/index.ts",
+      "git_blob": "4f2fb8e94c934ffe5191f1517daced0235eeeff4",
+      "mode": "100644",
+      "sha256": "6e04582a538c288a8fe86752fc5689f68d69d1a93da23b22c1922d802b1eecd5"
+    },
+    {
+      "source": "ideation-loop-system/packages/runtime/tsconfig.json",
+      "target": "packages/runtime/tsconfig.json",
+      "git_blob": "9e25e6ece9a77e81dcf7ee3065d787257182501d",
+      "mode": "100644",
+      "sha256": "88020c5d0c639e9fca3c8cc0425dc6233bbb30b14c5a0cb5dcb7d7530d4b788f"
+    },
+    {
+      "source": "ideation-loop-system/prompts/catalog.yaml",
+      "target": "prompts/catalog.yaml",
+      "git_blob": "bdabcf4668c994a38e6d6922a8fda0e7e26b2b73",
+      "mode": "100644",
+      "sha256": "0c9808cdf0ca1b6deaf6210ceadccd2aa88d227a2c772ebc1cf9f7e0d1c21d14"
+    },
+    {
+      "source": "ideation-loop-system/prompts/chatgpt/images.md",
+      "target": "prompts/chatgpt/images.md",
+      "git_blob": "767969ad573cfaf0f2fcaa073ab8afaf4dc19b9b",
+      "mode": "100644",
+      "sha256": "08c33a6a94f0c179beb460e724f50bf8b4056d9d097a55db1f353ae8f0b6763a"
+    },
+    {
+      "source": "ideation-loop-system/prompts/chatgpt/plan.md",
+      "target": "prompts/chatgpt/plan.md",
+      "git_blob": "5df72005704ace5422ca820b25ae340ae5410f39",
+      "mode": "100644",
+      "sha256": "b722d01f6d90106637c3ea43295aac7a0e334d2d29e627da6b48d2f65227bb4f"
+    },
+    {
+      "source": "ideation-loop-system/prompts/claude/ui.md",
+      "target": "prompts/claude/ui.md",
+      "git_blob": "4d69421d3e070d0f05acd18cee703dba4a6a37f6",
+      "mode": "100644",
+      "sha256": "e9c50bdab75030972e2913dd74fc365490269e3672e189dd2ce47193c7e3ceb6"
+    },
+    {
+      "source": "ideation-loop-system/prompts/codex/prd.md",
+      "target": "prompts/codex/prd.md",
+      "git_blob": "2f514e06ae55861deb60e722911b34f9a194513d",
+      "mode": "100644",
+      "sha256": "cdd134b9491c92f7e461abd7e9b4cfc618ed71d873dae96f6b3838c3ae5ee62e"
+    },
+    {
+      "source": "ideation-loop-system/prompts/cursor/orchestrate.md",
+      "target": "prompts/cursor/orchestrate.md",
+      "git_blob": "0f633a229e517b07a278a151506dfd45f745d77a",
+      "mode": "100644",
+      "sha256": "3f7f2317234dce379d5ae3116ae776e4e24cbe7c1db12b85a6b2d2cad8edf02a"
+    },
+    {
+      "source": "ideation-loop-system/prompts/loop/backend-picker.md",
+      "target": "prompts/loop/backend-picker.md",
+      "git_blob": "0e1125f7b5404351e2df8b482335d5e395744213",
+      "mode": "100644",
+      "sha256": "f21e1919bb65948ca1e46d4869362cf31a60df2ff910fb5749ae329144ba03ff"
+    },
+    {
+      "source": "ideation-loop-system/prompts/loop/language-picker.md",
+      "target": "prompts/loop/language-picker.md",
+      "git_blob": "a9cbe722be90cd66626ad8aacd80c9d7c253ad24",
+      "mode": "100644",
+      "sha256": "2a80a2f1786ab1d04277dc3fe842af510230a804aff884f94b1652a7ab2eb2ea"
+    },
+    {
+      "source": "ideation-loop-system/prompts/loop/oss-tool-picker.md",
+      "target": "prompts/loop/oss-tool-picker.md",
+      "git_blob": "d003a3afc26b6172f89f6cc23ebf1c9d56eb441a",
+      "mode": "100644",
+      "sha256": "97c73b2da256b95ce1644a0c85bae8e798687879c4f2d1b72eff2a05eee4016e"
+    },
+    {
+      "source": "ideation-loop-system/prompts/loop/pwa-desktop-deno.md",
+      "target": "prompts/loop/pwa-desktop-deno.md",
+      "git_blob": "0f03f30ecccf9cd6bf09320a08bdccdb7380b5a5",
+      "mode": "100644",
+      "sha256": "f5c74d39a3b197a061fbd5637099d9b5cd192c614b1056d840c23402c1940854"
+    },
+    {
+      "source": "ideation-loop-system/prompts/loop/pwa-maintainer.md",
+      "target": "prompts/loop/pwa-maintainer.md",
+      "git_blob": "1cac99fff74352cfcdb65428e6ee3997868d5587",
+      "mode": "100644",
+      "sha256": "0166b036d302c96bc76b8722985bc8a3c62e555a5b46f5ae17fc44b885b98c4c"
+    },
+    {
+      "source": "ideation-loop-system/prompts/loop/seo-route-adder.md",
+      "target": "prompts/loop/seo-route-adder.md",
+      "git_blob": "c09cb2501648d1ff4539aa6a73116b5009ca2d11",
+      "mode": "100644",
+      "sha256": "0642b57d6e6443b064cf4b91004dbb20b59d5898ad5d7ddaefe2102df4d98ace"
+    },
+    {
+      "source": "ideation-loop-system/prompts/loop/video-live.md",
+      "target": "prompts/loop/video-live.md",
+      "git_blob": "ebd5c1934bca083238c5f9e4ff2ec174b3fcf3d6",
+      "mode": "100644",
+      "sha256": "169a653779d7e664260e091e621841bbb9f83f74bd851e923c250c1c540ccee8"
+    },
+    {
+      "source": "ideation-loop-system/prompts/recurring/chatgpt-banners.md",
+      "target": "prompts/recurring/chatgpt-banners.md",
+      "git_blob": "e1cb3fedc32919b16c493afef1d428f398c9baea",
+      "mode": "100644",
+      "sha256": "f285044978e77bb67a33c32689713eb6a95a59ad7689096e7a40830fde7074af"
+    },
+    {
+      "source": "ideation-loop-system/prompts/recurring/desktop-deno-smoke.md",
+      "target": "prompts/recurring/desktop-deno-smoke.md",
+      "git_blob": "41bf716d63cc2bbe8ecb9e86ab8f65664bf0b816",
+      "mode": "100644",
+      "sha256": "04e5139ce1535c5f270ef8170c41f7a40ecb1030e285cb2fe78cbbfaf1d5439f"
+    },
+    {
+      "source": "ideation-loop-system/prompts/recurring/pwa-contract.md",
+      "target": "prompts/recurring/pwa-contract.md",
+      "git_blob": "fe2cfc79481203e26e7d935595653bfb143492f0",
+      "mode": "100644",
+      "sha256": "8d9cd8e0213ecb6f20c55f7457fc194511c7f141e65418a47b08a8652732875c"
+    },
+    {
+      "source": "ideation-loop-system/prompts/recurring/seo-drift.md",
+      "target": "prompts/recurring/seo-drift.md",
+      "git_blob": "f4f001bc2693732c43d0ae7c8b3ce7672db6f6dc",
+      "mode": "100644",
+      "sha256": "214c67296aa9f12f26d8f87fe17d1dd7f879ef23db8f538759854a31096a3b77"
+    },
+    {
+      "source": "ideation-loop-system/prompts/recurring/video-pipeline-health.md",
+      "target": "prompts/recurring/video-pipeline-health.md",
+      "git_blob": "5c238cf9e3515ac68f7f6e79292a7afc965fc7c2",
+      "mode": "100644",
+      "sha256": "ad2d4c2cfc424f97a313f8217da7f40a12c08709e7da39f21198ad1732854f9d"
+    },
+    {
+      "source": "ideation-loop-system/scripts/bootstrap-workspace.ts",
+      "target": "scripts/bootstrap-workspace.ts",
+      "git_blob": "3c317894b025b69286682c9906f5b086532fd377",
+      "mode": "100644",
+      "sha256": "e6baebed0c995c926614ff5ec3754f75bb068a6327da6877ccd6f014b81aceee"
+    },
+    {
+      "source": "ideation-loop-system/scripts/inventory.ts",
+      "target": "scripts/inventory.ts",
+      "git_blob": "cddb138d0c560696fe4b5f454a8f06949a0b2483",
+      "mode": "100644",
+      "sha256": "0e356ec61800c62f59fc68b75f2773895c230b8490635c66a8b01d4915122938"
+    },
+    {
+      "source": "ideation-loop-system/scripts/load-env.ts",
+      "target": "scripts/load-env.ts",
+      "git_blob": "87f08086d77dec5d8dfc2de0e8a98826b970f5dc",
+      "mode": "100644",
+      "sha256": "ae9b099bac0f42041f6a40047a907621ca76076243fdde15271a5c130936c7ab"
+    },
+    {
+      "source": "ideation-loop-system/scripts/phase0.test.ts",
+      "target": "scripts/phase0.test.ts",
+      "git_blob": "52fc43bba7392d48cc9ba416fc4d4b670782dce3",
+      "mode": "100644",
+      "sha256": "203705dd8866ee2cf60bbca4adabbcd4adce23bb110900285f30f80c8f9641d6"
+    },
+    {
+      "source": "ideation-loop-system/scripts/phase0.ts",
+      "target": "scripts/phase0.ts",
+      "git_blob": "017d7ca498ed28ef1ecb7dbd4bdb78aaef11608c",
+      "mode": "100644",
+      "sha256": "3277290079bc9be6e004433fbbc8eeb5a3a446f79c124a1f5872e2aa81961ef4"
+    },
+    {
+      "source": "ideation-loop-system/scripts/start-all.ts",
+      "target": "scripts/start-all.ts",
+      "git_blob": "763585e4fd4bb5778685d741446d8d41929bf8b6",
+      "mode": "100644",
+      "sha256": "08e65fe30bb3e03e1538831567e2c330dd389c90ca715a4c1835310464f67e52"
+    },
+    {
+      "source": "ideation-loop-system/tsconfig.base.json",
+      "target": "tsconfig.base.json",
+      "git_blob": "3be301deb023b6baa257314232bc833e51856603",
+      "mode": "100644",
+      "sha256": "56542c0b0fc60e56ffa66971950014ea27fe4d619a83f6c3cd65a31ac2f96d55"
+    },
+    {
+      "source": "ideation-loop-system/tsconfig.json",
+      "target": "tsconfig.json",
+      "git_blob": "dc2058399c6299abc61ff5f3a5cff692aecabacc",
+      "mode": "100644",
+      "sha256": "879660073a4a50dbb558378a538b6ec4bdec9da52e8b92f48eaa873a88c8898f"
+    },
+    {
+      "source": "ideation-loop-system/vitest.config.ts",
+      "target": "vitest.config.ts",
+      "git_blob": "6b0724785dab2d99ced579bad493db94635220fa",
+      "mode": "100644",
+      "sha256": "a447b6191f8e6707981f61696c089963d419451789afbdaf0f9496593db8f7e6"
+    }
+  ]
+}

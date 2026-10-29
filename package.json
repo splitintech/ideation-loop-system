@@ -1,11 +1,11 @@
 {
-  "name": "slack-agent-hq",
+  "name": "ideation-loop-system",
   "version": "0.1.0",
   "private": true,
-  "description": "Slack project-thread router plus taggable specialist bots. Install from this folder only.",
+  "description": "Slack ideation loop, shared memory packets and versioned agent prompt catalog.",
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.13.0"
   },
   "workspaces": [
     "apps/*",
@@ -23,7 +23,9 @@
     "bootstrap": "tsx scripts/bootstrap-workspace.ts",
     "phase0": "tsx scripts/phase0.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check:migration": "python3 scripts/check-migration.py",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
@@ -34,5 +36,13 @@
   },
   "dependencies": {
     "@slack/web-api": "^7.9.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/ideation-loop-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/ideation-loop-system/issues"
+  },
+  "homepage": "https://github.com/splitintech/ideation-loop-system#readme"
 }

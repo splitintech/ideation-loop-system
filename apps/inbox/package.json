@@ -8,5 +8,14 @@
   },
   "dependencies": {
     "@slack-agent-hq/runtime": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/ideation-loop-system.git",
+    "directory": "apps/inbox"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/ideation-loop-system/issues"
+  },
+  "homepage": "https://github.com/splitintech/ideation-loop-system/tree/main/apps/inbox#readme"
 }

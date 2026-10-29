@@ -9,5 +9,14 @@
   "dependencies": {
     "@slack-agent-hq/protocol": "*",
     "@slack/bolt": "^4.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/ideation-loop-system.git",
+    "directory": "packages/runtime"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/ideation-loop-system/issues"
+  },
+  "homepage": "https://github.com/splitintech/ideation-loop-system/tree/main/packages/runtime#readme"
 }

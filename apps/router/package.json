@@ -10,5 +10,14 @@
     "@slack-agent-hq/protocol": "*",
     "@slack/bolt": "^4.4.0",
     "@slack/web-api": "^7.9.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/ideation-loop-system.git",
+    "directory": "apps/router"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/ideation-loop-system/issues"
+  },
+  "homepage": "https://github.com/splitintech/ideation-loop-system/tree/main/apps/router#readme"
 }
